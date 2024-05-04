@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(230, 17%, 7%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  width: 80px;
+  height: 80px;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: hsl(0, 76%, 68%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: hsl(0, 76%, 63%);
+}
+
+button:active {
+  background-color: hsl(0, 76%, 53%);
+}
+
+button.operator {
+  background-color: hsl(0, 55%, 50%);
+}
+
+button:hover {
+  background-color: hsl(0, 55%, 55%);
+}
+
+button:active {
+  background-color: hsl(0, 55%, 60%);
+}
