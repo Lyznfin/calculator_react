@@ -49,10 +49,10 @@ button.operator {
   background-color: hsl(0, 55%, 50%);
 }
 
-button:hover {
-  background-color: hsl(0, 55%, 55%);
+button.operator:hover {
+  background-color: hsl(0, 55%, 45%);
 }
 
-button:active {
-  background-color: hsl(0, 55%, 60%);
+button.operator:active {
+  background-color: hsl(0, 55%, 40%);
 }
